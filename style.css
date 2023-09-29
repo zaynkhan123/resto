@@ -1,0 +1,66 @@
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.page1 {
+    background: linear-gradient(rgba(210, 208, 208, 0.5), rgba(22, 22, 22, 0.5)), url(./pngtree-fresh-minimalist-decorative-border-background-image_207046.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-item {
+    padding: 0px;
+    transition: 0.6s ease;
+}
+
+.nav-item:hover {
+    background-color: #f1f1f18b;
+    color: #222;
+    border-bottom: 1px solid;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.kam {
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes anime {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.carousel-indicators {
+    bottom: -15px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #f1f1f1;
+    border-radius: 19px;
+}
+
+.page2 {
+    background: linear-gradient(rgba(210, 208, 208, 0.5), rgba(22, 22, 22, 0.5)), url(./pngtree-fresh-minimalist-decorative-border-background-image_207046.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.chalo::-webkit-scrollbar {
+    display: none;
+}
